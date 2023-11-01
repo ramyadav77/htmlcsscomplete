@@ -1,0 +1,11 @@
+header{
+    background-color: #3498db;
+    color:#fff;
+    padding: 20px;
+}
+
+@media(max-width:600px){
+    header{
+        background-color: #e74c3c;
+    }
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #3498db;
+    color:#fff;
+}
+nav ul{
+    /* list-style: none; */
+    /* padding: 5px; */
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin:  0 10px ;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-icon{
+    display: none;
+}
+/* media query for screens with a maximum width of 600px  */
+@media(max-width:600px){
+    header{
+        background-color: #e74c3c;
+    }
+    nav{
+        background-color: #3498db;
+    }
+    nav ul{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+    }
+}
